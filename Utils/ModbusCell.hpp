@@ -1,14 +1,9 @@
 /**************************************************************************************************************************** 
 *                                        Author: Abdelrahman Gamal OKASHA                                                   *
 *			                             Created: 9/3/2026                                                                  *
-*			                             File: ModbusClient.cpp                                                             *
-*			                             [ ModbusClient Module ]                                                            *
+*			                             File: ModbusCell.hpp                                                               *
+*			                             [ Utils Module ]                                                                   *
 ****************************************************************************************************************************/
 
-
-#include <algorithm>
-#include <iterator>
-#include <sstream>
-#include "../ModbusException/ModbusException.hpp"
-#include "../Utils/Utils.hpp"
+#pragma once 
 
