@@ -14,9 +14,7 @@ Until there will some reliable way to test it, it will be treated as such.
 - [Important Concept](#important-concept)
 - [Possibilities](#possibilities)
 - [Dependencies](#dependencies)
-- [Status](#status)
 - [Installation](#how-to-install-it-)
-- [Api](#api)
 
 # Why
 
@@ -101,19 +99,11 @@ For communication module, you may need:
 
 - libnet - only for tcp communication (not needed if communication is disabled)
 
-# STATUS
-
-Currently Modbus Core is fully functional and (I belive) it doesn't have any bugs.
-
-Modbus Communication is working *currently* only for linux, it works well on TCP and Serial (tested on raspberry pi).
-
 # How to learn Modbus ?
 
 Just use [Simply modbus](http://www.simplymodbus.ca/FAQ.htm).
 
 # How to install it ?
-
-### Using CMAKE and git
 
 First go to directory that will contain this library.
 
