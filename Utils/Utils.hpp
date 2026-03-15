@@ -45,8 +45,7 @@ namespace MB::utils
         ProtocolError     = 0b01111011,
         ConnectionClosed  = 0b01111010,
         Timeout           = 0b01111001,
-        // Specific for modbus response, when number of registers is too big
-        // See issue: https://github.com/Mazurel/Modbus/issues/3
+        
         NumberOfRegistersInvalid = 0b01111000,
         NumberOfValuesInvalid    = 0b01110111,
     };
